@@ -20,7 +20,7 @@
     name: 'color',
     message: 'Pick a charater',
     multiple: false,
-    choices: ['fafddasf', 'troll', 'watermelon', 'cherry', 'orange'],
+    choices: ['apple', 'watermelon', 'cherry', 'orange'],
     choiceMessage(choice, i) {
         return choice.enabled ? colors.bold.green(choice.message) : choice.message;
     }
