@@ -19,9 +19,9 @@ for (let i = 0; i < questions.length; i++) {
         console.log('Sorry',userAnswer,'is incorrect. The correct answer is',questions[i].answer,'.')
         numWrong++;
     }
-    tend = new Date().getTime();
     //console.log(tend);
 }
+tend = new Date().getTime();
 quizTime = tend-tstart;
 console.log('You answered',numCorrect,'question correct');
 console.log('You answered',numWrong,'question incorrect');
