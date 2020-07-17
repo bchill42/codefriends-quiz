@@ -16,11 +16,10 @@ for (let i = 0; i < questions.length; i++) {
         console.log('Correct! The answer is',questions[i].answer);
         numCorrect++;
         difficulty++;
-        } else {
+    } else {
         console.log('Sorry',userAnswer,'is incorrect. The correct answer is',questions[i].answer,'.')
         numWrong++;
-    }
-}
+    }}
 tend = new Date().getTime();
 quizTime = tend-tstart;
 console.log('You answered',numCorrect,'question correct');
